@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puzzle Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="introduction">
+            <h1>Speeches of a Dream</h1>
+            <p>Fill-in-the-Blanks</p>
+        </div>
+
+        <div id="puzzleSection">
+            <form id="puzzleForm">
+                <p>
+We heed this old spirit,</span><br>
+In a new day's <span class="blank"><input type="text" maxlength="1" name="letterA1"></span>yric,</span><br>
+In our hea<span class="blank"><input type="text" maxlength="1" name="letterA2"></span>ts, we hear it:</span><br>
+For auld lang syne, my dear,</span><br>
+For auld lang syne.</span><br>
+Be bold, sang Time this ye<span class="blank"><input type="text" maxlength="1" name="letterA3"></span>r,</span><br>
+Be bold, sang Time,</span><br>
+For when you honor yesterday,</span><br>
+<span class="blank"><input type="text" maxlength="1" name="letterA4"></span>omorrow ye will find.</span><br>
+Know what we've fo<span class="blank"><input type="text" maxlength="1" name="letterA5"></span>ght</span><br>
+Ne<span class="blank"><input type="text" maxlength="1" name="letterA6"></span>d not be forgot nor for none.</span><br>
+It defines us, binds us as one,</span><br>
+Come over, join this d<span class="blank"><input type="text" maxlength="1" name="letterA7"></span>y just begun.</span><br>
+For wherever we come together,</span><br>
+We will forev<span class="blank"><input type="text" maxlength="1" name="letterA8"></span>r overcome.</span><br>
+-Amanda Gorman “New Day’s Lyric”</span><br>
+
+                </p>
+                
+                <p>Collected Letters: <span id="collectedLetters"></span></p>
+
+                <p>Unscramble the Phrase:</p>
+                <div id="unscrambleArea">
+                    <input type="text" id="unscrambledWord1" maxlength="8" placeholder="______" name="unscrambledWord1">
+                                     </div>
+                <p>Word Lengths: 8</p>
+                <p>**Lowercase letters only</p>
+                <br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
